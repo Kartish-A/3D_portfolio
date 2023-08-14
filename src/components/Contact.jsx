@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { ImLinkedin2 } from "react-icons/im"
+import { ImXing2 } from "react-icons/im"
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -132,18 +133,26 @@ const Contact = () => {
               className="bg-[#2F559B] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
-          <div className="flex justify-between items-center" >
+          <div className="flex justify-between items-center mt-2" >
             <button
               type="submit"
               className="bg-[#ff006e] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-[#2F559B] hover:shadow-[#fff]"
             >
               {loading ? "Sending..." : "Send"}
             </button>
-            <div
-              className="hover:text-[#ff006e] cursor-pointer transition duration-300"
-              onClick={() => window.open('https://www.linkedin.com/in/abdoulfatah-kartish-7a35b4a1', '_blank')}
-            >
-              <ImLinkedin2 size={50} />
+            <div className="flex flex-1 justify-end ">
+              <div
+                className="hover:text-[#ff006e] cursor-pointer transition duration-300 "
+                onClick={() => window.open('https://www.xing.com/', '_blank')}
+              >
+                <ImXing2 size={46} />
+              </div>
+              <div
+                className="hover:text-[#ff006e] cursor-pointer transition duration-300 ml-4"
+                onClick={() => window.open('https://www.linkedin.com/in/abdoulfatah-kartish-7a35b4a1', '_blank')}
+              >
+                <ImLinkedin2 size={50} />
+              </div>
             </div>
           </div>
 
