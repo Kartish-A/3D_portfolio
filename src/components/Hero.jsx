@@ -25,9 +25,9 @@ const Hero = () => {
       </div>
       <ComputersCanvas />
 
-      <div className="absolute bottom-32 xs:bottom-12 md:bottom-24 w-full flex justify-center items-center border border-yellow-400">
+      <div className="absolute w-full flex justify-center items-center bottom-32 xs:bottom-12 md:bottom-24 ">
         <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-[#00E5FF] flex justify-center items-start p-2">
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -37,7 +37,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
+              className="w-3 h-3 rounded-full bg-[#00E5FF] mb-1"
             />
           </div>
         </a>
