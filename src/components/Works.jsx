@@ -76,7 +76,7 @@ const ProjectCard = ({
 
 const Works = () => {
   return (
-    <>
+    <div>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText}`} >Check out what I've done</p>
         <h2 className={`${styles.sectionHeadText}`}>Highlighted Ventures.</h2>
@@ -96,7 +96,7 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
