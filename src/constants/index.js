@@ -24,6 +24,7 @@ import {
   socialEase,
   lafifProjectPhoto,
   taskfocus,
+  bookNook,
   tripguide,
   threejs,
 } from "../assets";
@@ -315,7 +316,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: bookNook,
     source_code_link: "https://github.com/",
     project_link: "",
   },

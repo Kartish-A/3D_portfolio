@@ -32,6 +32,7 @@ import commercezone from "./e-commerce.png";
 import socialEase from "./socialEase.png";
 import lafifProjectPhoto from "./lafif_project_photo.png";
 import taskfocus from "./taskfocus.png";
+import bookNook from "./BNprojectCover.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -63,6 +64,7 @@ export {
   admin,
   commercezone,
   socialEase,
+  bookNook,
   taskfocus,
   lafifProjectPhoto,
   tripguide,
