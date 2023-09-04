@@ -1,9 +1,9 @@
 {
-  "name": "abd_portfolio",
+  "name": "3D_portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kartish-a.github.io/abd_portfolio/",
+  "homepage": "https://kartish-a.github.io/3D_portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
