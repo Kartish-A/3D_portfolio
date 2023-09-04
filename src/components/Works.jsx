@@ -76,7 +76,7 @@ const ProjectCard = ({
 
 const Works = () => {
   return (
-    <div className="border-2 border-black-600 rounded bg-yellow-700">
+    <div>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText}`} >Check out what I've done</p>
         <h2 className={`${styles.sectionHeadText}`}>Highlighted Ventures.</h2>

@@ -21,7 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import msg from "./company/msg_systems_dark_logo.png";
+import msg from "./company/msgLogo.png";
 import socialbee from "./Socialbee.png";
 import dci from "./dci_logo.png";
 import lafifLogo from "./lafif.png";
