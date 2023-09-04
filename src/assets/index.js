@@ -24,12 +24,14 @@ import threejs from "./tech/threejs.svg";
 import msg from "./company/Msg_systems_dark_logo.png";
 import socialbee from "./Socialbee.png";
 import dci from "./dci_logo.png";
-import lafif from "./lafif.png";
+import lafifLogo from "./lafif.png";
 
 
 import admin from "./admin_dashboard.png";
 import commercezone from "./e-commerce.png";
 import socialEase from "./socialEase.png";
+import lafifProjectPhoto from "./lafif_project_photo.png";
+import taskfocus from "./taskfocus.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -57,9 +59,11 @@ export {
   msg,
   socialbee,
   dci,
-  lafif,
+  lafifLogo,
   admin,
   commercezone,
   socialEase,
+  taskfocus,
+  lafifProjectPhoto,
   tripguide,
 };

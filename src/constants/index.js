@@ -18,10 +18,12 @@ import {
   msg,
   socialbee,
   dci,
-  lafif,
+  lafifLogo,
   commercezone,
   admin,
   socialEase,
+  lafifProjectPhoto,
+  taskfocus,
   tripguide,
   threejs,
 } from "../assets";
@@ -157,7 +159,7 @@ const experiences = [
   {
     title: "Founder and CEO",
     company_name: "LAFIF Investment initiative",
-    icon: lafif,
+    icon: lafifLogo,
     iconBg: "#fff",
     date: "Feb 2019 - Okt 2019",
     points: [
@@ -200,7 +202,7 @@ const testimonials = [
 const projects = [
   {
     name: "Admin dashboard",
-    subtitle:"control central",
+    subtitle: "control central",
     description:
       "A comprehensive full-stack data visualization and management application, empowering users to seamlessly integrate their databases or manually input data. with user-friendly interface, and dynamic data visualization.",
     tags: [
@@ -225,7 +227,7 @@ const projects = [
     name: "CommerceZone",
     subtitle: "web store",
     description:
-      "CommerceZone is an online Store enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "CommerceZone is an online store with responsive design, prioritizing a user-centric experience. By enabling customers to explore a variety of offerings with ease, It creates a seamless and enjoyable shopping journey",
     tags: [
       {
         name: "react",
@@ -250,9 +252,9 @@ const projects = [
   },
   {
     name: "SocialEase",
-    subtitle:"social media app",
+    subtitle: "social media app",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An app with seamless user experience, enabling users to connect and interact effortlessly. through intuitive interface & innovative features, fostering meaningful interactions in the digital realm",
     tags: [
       {
         name: "nextjs",
@@ -272,8 +274,31 @@ const projects = [
     project_link: "",
   },
   {
-    name: "LAFIF ",
-    subtitle:"Investment initiative platform",
+    name: "TaskFocus ",
+    subtitle: "online ToDo & Focus app",
+    description:
+      "Specialized to-do app, offering seamless task management. With focus mode and priority matrix features, it enhances productivity. It's a dynamic tool for efficient task organization.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: taskfocus,
+    source_code_link: "https://github.com/",
+    project_link: "",
+  },
+  {
+    name: "BookNook ",
+    subtitle: "online book store",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -295,8 +320,8 @@ const projects = [
     project_link: "",
   },
   {
-    name: "BookNook ",
-    subtitle:"online book store",
+    name: "LAFIF ",
+    subtitle: "Investment initiative platform",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -313,7 +338,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: lafifProjectPhoto,
     source_code_link: "https://github.com/",
     project_link: "",
   },
