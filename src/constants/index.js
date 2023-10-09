@@ -176,27 +176,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Abdoulfatah proved me wrong.",
-    name: "Sara Lee",
+      "Abdoulfatah surpassed my expectations by crafting a website that beautifully complements our product. I initially thought it might be a challenging task, but he proved me wrong.",
+    name: "A. Q. nelssa",
     designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    company: "Acmelx. Co",
+    image: "https://randomuser.me/api/portraits/women/1.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Abdoulfatah does.",
-    name: "Chris Brown",
+      "Abdoulfatah's web development skills are truly exceptional. His attention to detail and creativity in designing our website have left a lasting impression on our customers.",
+    name: "K. M. Huztrl",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "https://randomuser.me/api/portraits/men/9.jpg",
   },
   {
     testimonial:
-      "After Abdoulfatah optimized our website, our traffic increased by 50%. We can't thank him enough!",
-    name: "Lisa Wang",
+      "We owe our online success to Abdoulfatah's web development expertise. His dedication and technical proficiency have transformed our digital presence.",
+    name: "S.M. Latim",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://randomuser.me/api/portraits/women/2.jpg",
   },
 ];
 
@@ -343,7 +343,6 @@ const projects = [
     source_code_link: "https://github.com/",
     project_link: "",
   },
-  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
