@@ -30,7 +30,7 @@ const Contact = () => {
     });
   };
 
-  const MAX_WORDS = 300; // Set your desired maximum word count
+  const MAX_WORDS = 200; // Set your desired maximum word count
 
   const handleSubmit = (e) => {
     e.preventDefault();
