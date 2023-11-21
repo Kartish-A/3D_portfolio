@@ -221,12 +221,12 @@ const projects = [
       },
     ],
     image: admin,
-    source_code_link: "https://github.com/",
-    project_link: "",
+    source_code_link: "https://github.com/Kartish-A/admin_dashboard_frontend",
+    project_link: "https://github.com/Kartish-A/admin_dashboard_frontend",
   },
   {
     name: "CommerceZone",
-    subtitle: "web store",
+    subtitle: "online store",
     description:
       "CommerceZone is an online store with responsive design, prioritizing a user-centric experience. By enabling customers to explore a variety of offerings with ease, It creates a seamless and enjoyable shopping journey",
     tags: [
@@ -248,12 +248,12 @@ const projects = [
       },
     ],
     image: commercezone,
-    source_code_link: "https://github.com/",
-    project_link: "",
+    source_code_link: "https://github.com/Kartish-A/commerceZone",
+    project_link: "https://github.com/Kartish-A/commerceZone",
   },
   {
     name: "SocialEase",
-    subtitle: "social media app",
+    subtitle: "social-media app",
     description:
       "An app with seamless user experience, enabling users to connect and interact effortlessly. through intuitive interface & innovative features, fostering meaningful interactions in the digital realm",
     tags: [
@@ -262,17 +262,17 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "materialUI",
         color: "pink-text-gradient",
       },
     ],
     image: socialEase,
-    source_code_link: "https://github.com/",
-    project_link: "",
+    source_code_link: "https://github.com/Kartish-A/SocialEase_Frontend",
+    project_link: "https://github.com/Kartish-A/SocialEase_Frontend",
   },
   {
     name: "TaskFocus ",
@@ -289,7 +289,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "MongoDB",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
@@ -308,11 +308,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
@@ -331,11 +331,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "materialUI",
         color: "pink-text-gradient",
       },
     ],

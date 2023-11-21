@@ -136,7 +136,7 @@ const Contact = () => {
           <div className="flex justify-between items-center mt-2" >
             <button
               type="submit"
-              className="bg-[#ff006e] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-[#2F559B] hover:shadow-[#fff]"
+              className="bg-[#ff006e] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold hover:bg-[#fff] hover:text-[#ff006e]"
             >
               {loading ? "Sending..." : "Send"}
             </button>
