@@ -202,6 +202,29 @@ const testimonials = [
 
 const projects = [
   {
+    name: "BookNook ",
+    subtitle: "online book store",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bookNook,
+    source_code_link: "https://github.com/Kartish-A/nookbook",
+    project_link: "https://nookbook.vercel.app/",
+  },
+  {
     name: "Admin dashboard",
     subtitle: "control central",
     description:
@@ -297,29 +320,7 @@ const projects = [
     source_code_link: "https://github.com/",
     project_link: "",
   },
-  {
-    name: "BookNook ",
-    subtitle: "online book store",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: bookNook,
-    source_code_link: "https://github.com/",
-    project_link: "",
-  },
+  
   {
     name: "LAFIF ",
     subtitle: "Investment initiative platform",
