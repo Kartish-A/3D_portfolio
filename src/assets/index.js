@@ -26,7 +26,7 @@ import socialbee from "./Socialbee.png";
 import dci from "./dci_logo.png";
 import lafifLogo from "./lafif.png";
 
-import admin from "/src/assets/admin_dashboard.png";
+import admin from "./admin_dashboard.png";
 import commercezone from "./e-commerce.png";
 import socialEase from "./socialEase.png";
 import lafifProjectPhoto from "./lafif_project_photo.png";
